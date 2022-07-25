@@ -5,9 +5,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="">
+    <div className="items-center justify-center bg-red-300">
       
-      <h1>Vite + React</h1>
+      <h1>Hello React</h1>
+      <div> Prueba </div>
      
     </div>
   )
