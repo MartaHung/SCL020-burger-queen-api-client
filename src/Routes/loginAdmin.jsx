@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const LoginWaiter = () => {
+const LoginAdmin = () => {
 
 
 
@@ -8,12 +8,12 @@ const LoginWaiter = () => {
       <>
         <main className="containerHome">
         <section className="container flex flex-col justify-center items-center">
-          <nav title="Volver" className="m-5 bg-orange-emp-lg/50 p-4 border-2 rounded-tl-lg rounded-br-lg border-orange-emp-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 ...">
+          <nav title="Volver" className="m-5 bg-orange-emp-lg/50 p-4 border-2 rounded-lg border-orange-emp-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 ...">
           <Link to="/">
-          <img src="./src/img/waiter.png" ></img>
+          <img src="./src/img/admin.png"></img>
           </Link>
           </nav>
-          <p>¡Bienvenido Mesero!</p>
+          <p>¡Bienvenido Administrador!</p>
           <hr className="mb-5 mt-2 bg-orange-emp h-0.5 w-60 border-none rounded"/>
           </section>
 
@@ -41,4 +41,4 @@ const LoginWaiter = () => {
     );
   }
 
-  export default LoginWaiter
+  export default LoginAdmin
